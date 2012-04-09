@@ -1,0 +1,36 @@
+{
+  "name": "fileupload-gridfs",
+  "description": "GridFS module for fileupload (https://github.com/domharrington/fileupload)",
+  "version": "0.0.1",
+  "author": "Dom Harrington <dom.harrington@clock.co.uk>",
+  "contributors": [
+    "Dom Harrington <dom.harrington@clock.co.uk>"
+  ],
+  "dependencies": {
+    "mime": ">=1.2.5",
+    "GridFS": "0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "0.3.6",
+    "should": "0.5.0"
+  },
+  "keywords": [
+    "fileupload",
+    "express",
+    "gridfs",
+    "mongo",
+    "mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/domharrington/fileupload-gridfs.git"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "mocha -r should -R List",
+    "prepublish": "npm prune"
+  },
+  "engines": {
+    "node": ">= 0.4.6 < 0.7.0"
+  }
+}
